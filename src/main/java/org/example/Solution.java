@@ -1,6 +1,5 @@
 package org.example;
 
-import java.text.DecimalFormat;
 import java.util.*;
 
 public class Solution {
@@ -84,16 +83,6 @@ public class Solution {
         }
 
         return -1.0;
-    }
-}
-
-class Pair<String, Double> {
-    String node;
-    Double currentProd;
-
-    public Pair(String node, Double currentProd) {
-        this.node = node;
-        this.currentProd = currentProd;
     }
 }
 
